@@ -248,6 +248,7 @@ header.sticky{
     text-align: center;
     gap: 2rem;
     margin-top: 4rem;
+    width: 100%;
 }
 
 .box-img img{
