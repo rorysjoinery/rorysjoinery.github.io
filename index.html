@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -43,35 +45,35 @@
     </header>
 
     <!---- home ---->
-    <section class="home" id="home">
+    <section class="home" id="home" data-aos="fade-up" data-aos-duration="1400">
         <div class="home-text">
             <h4>Carving Art</h4>
             <h1>Bringing <br> Wood to Life</h1>
             <p>Expertly blah blah blah</p>
         </div>
 
-        <div class="home-img">
+        <div class="home-img" data-aos="zoom-in" data-aos-duration="1400">
             <img src ="img/shed_medium.jpg">
         </div>
 
         <div class="social">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-linkedin-line"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="200"><i class="ri-facebook-fill"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="300"><i class="ri-instagram-line"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="400"><i class="ri-linkedin-line"></i></a>
         </div>
 
-        <div class="arrow-box">
+        <div class="arrow-box" data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">
             <a href="#about"><i class="ri-arrow-down-line"></i></a>
         </div>
     </section>
 
     <!---- about ---->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in" data-aos-duration="1400">
             <img src="img/shed_medium.jpg">
         </div>
 
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-up" data-aos-duration="1400">
             <h2>Joinery is my <br> Passion</h2>
             <p> Hi, I'm Rory. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima labore nobis dolores non voluptatibus
                 perspiciatis sequi optio? Excepturi sunt magni repudiandae illum earum voluptatum possimus aperiam, cupiditate accusamus sint. Accusantium!</p>
@@ -81,7 +83,7 @@
 
     <!---- shop ---->
     <section class="shop" id="shop">
-        <div class="head-text">
+        <div class="head-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200">
             <div class="head-left">
                 <h4>Best Selling</h4>
             </div>
@@ -90,7 +92,7 @@
                 <h4>Offer up to 50%</h4>
             </div>
 
-            <div class="shop-content">
+            <div class="shop-content" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
                 <div class="box">
                     <div class="box-img">
                         <img src="img/shed_small.jpg">
@@ -129,7 +131,7 @@
 
     <!---- exhibitions ---->
     <section class="exhibitions" id="exhibitions">
-        <div class="head-text">
+        <div class="head-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
             <div class="head-left">
                 <h4>Exhibitions</h4>
             </div>
@@ -140,11 +142,11 @@
         </div>
 
         <div class="exb-content">
-            <div class="exb-img">
+            <div class="exb-img" data-aos="zoom-in" data-aos-duration="1400">
                 <img src="img/shed_medium.jpg">
             </div>
 
-            <div class="exb-text">
+            <div class="exb-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
                 <div class="row">
                     <h5> Blah blah blah</h5>
                     <a href="#">22 March 2024 - 25 March 2024</a>
@@ -170,7 +172,7 @@
 
     <!---- contact ---->
     <section class="contact" id="contact">
-        <div class="contact-content">
+        <div class="contact-content" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="400">
             <h2>Let's Talk</h2>
             <hr>
             <p>Yap Yap Yap</p>
@@ -182,8 +184,26 @@
         </div>
     </section>
 
+    <!---- footer ---->
+    <div class="footer">
+        <div class="copyright">
+            <a href="#" target="_blank">© Rory Taylor 2024 | All Right Reserved</a>
+        </div>
+
+        <div class="scroll-btnn">
+            <a href="#"><i class="ri-arrow-up-line"></i></a>
+        </div>
+    </div>
+
     <!---- js file link ---->
     <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 1,
+      });
+    </script>
 
 </body>
 </html>
