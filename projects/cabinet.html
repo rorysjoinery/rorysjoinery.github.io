@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My First Web Page</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bathroom Cabinet</title>
+        <link rel ="stylesheet" type="text/css" href="../css/projectstyle.css">
+    
+        <!---- box icons link ---->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+        <!---- remix icons link ---->
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+    
+        <!---- google fonts link ---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link rel="stylesheet" href="../css/lightbox.min.css" />
+    </head>
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a paragraph of text.</p>
-    <a href="https://www.example.com">Visit Example.com</a>
+    <h1>Bathroom Cabinet</h1>
+    <p>This was built for one of my school projects.</p>
+
+    <div id="container">
+        <div class="image-gallery">
+            <a href="../img/cabinet.jpg" data-lightbox="roadtrip" data-title=""><img src="../img/cabinet.jpg"></a>
+            <a href="../img/cabinet2.jpg" data-lightbox="roadtrip" data-title=""><img src="../img/cabinet2.jpg"></a>
+        </div>
+        <a href="../index.html#shop" class="btn">Back to my portfolio</a>
+    </div>
+
+    <script src="../js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
