@@ -431,6 +431,17 @@ header.sticky{
     font-size: 22px;
 }
 
+.shop-content .box h5 a {
+    color: #666666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.shop-content .box h5 a:hover {
+    color: #c5a47e;
+    text-decoration: underline;
+}
+
 @media(max-width:1880px){
     header{
         padding: 20px 4%;
