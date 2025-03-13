@@ -241,7 +241,7 @@ header.sticky{
     font-weight: 500;
 }
 
-.shop-content{
+.projects-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     align-items: center;
@@ -431,13 +431,13 @@ header.sticky{
     font-size: 22px;
 }
 
-.shop-content .box h5 a {
+.projects-content .box h5 a {
     color: #666666;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.shop-content .box h5 a:hover {
+.projects-content .box h5 a:hover {
     color: #c5a47e;
     text-decoration: underline;
 }
@@ -531,7 +531,7 @@ header.sticky{
 }
 
 @media(max-width:1100px){
-    .shop-content{
+    .projects-content{
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     }
     .exb-content{
